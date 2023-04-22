@@ -20,3 +20,10 @@
 body {
     background-size: 1900px;
 }
+
+#canvas {
+    width: 360px;
+    height: 360px;
+    border: solid;
+    border-color: light-grey;
+}
