@@ -26,4 +26,5 @@ body {
     height: 360px;
     border: solid;
     border-color: light-grey;
+    border-radius: 10px;
 }
