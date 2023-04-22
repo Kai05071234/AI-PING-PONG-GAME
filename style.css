@@ -21,7 +21,7 @@ body {
     background-size: 1900px;
 }
 
-#canvas {
+canvas {
     width: 360px;
     height: 360px;
     border: solid;
