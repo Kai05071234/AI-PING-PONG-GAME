@@ -28,3 +28,9 @@ canvas {
     border-color: light-grey;
     border-radius: 10px;
 }
+
+.footer{
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: cobalt blue;
+}
