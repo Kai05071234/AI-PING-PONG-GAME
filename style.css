@@ -25,7 +25,7 @@ canvas {
     width: 360px;
     height: 360px;
     border: solid;
-    border-color: light-grey;
+    border-color: linear-gradient(aqua, coral);
     border-radius: 10px;
 }
 
