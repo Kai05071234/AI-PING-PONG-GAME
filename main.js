@@ -1,7 +1,3 @@
-function preload() {
-  ball_touch_paddel = loadSound("ball_touch_paddel.wav");
-  ball_missed = loadSound("missed.wav");
-}
 function setup(){
   var canvas =  createCanvas(700,600);
   canvas.parent("canvas");
@@ -12,7 +8,7 @@ function setup(){
   poseNet.on('pose', gotPoses);
 }
 function modelLoaded() {
-  console.log("model is loaded!");
+  console.log("Model Loaded!!!");
 }
 function gotPoses(results) {
   if (results.length > 0) {
