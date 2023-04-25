@@ -23,8 +23,6 @@ function gotPoses(results) {
   }
 }
 function draw(){
-  if (game_status == "start") {
- background(0); 
  image(video, 0, 0, 700, 600);
  if(rightWrist_score > 0.2)  {
    fill("cyan");
