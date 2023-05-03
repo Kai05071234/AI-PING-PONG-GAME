@@ -3,6 +3,7 @@ rightWrist_x = 0;
 rightWrist_score = "";
 
 function setup(){
+  var canvas =  createCanvas(700,600);
   canvas.parent("canvas");
   video = createCapture(VIDEO);
   video.size(700, 600);
@@ -28,4 +29,11 @@ function draw(){
    fill("cyan");
    stroke("cyan");
    circle(rightWrist_x, rightWrist_y, 20);
+}
+}
+
+function start()
+{
+  game_status = "start";
+  document.getElementById("status").innerHTML = "Game Is Loading";
 }
